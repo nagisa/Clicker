@@ -90,11 +90,11 @@ while True:
     event = pygame.event.poll()
     if event.type == pygame.QUIT:
         sys.exit()
-    elif event.type == pygame.MOUSEBUTTONUP:
-        if result == 0:
-            timestart = int(time.time())
-        result += 1
-        show_result(result)
+    elif pygame.mouse.get_pressed()[0] and event.type == pygame.MOUSEBUTTONDOWN:
+            if result == 0:
+                timestart = int(time.time())
+            result += 1
+            show_result(result)
 
 while True:
     show_time('0. If you want to play again, restart this application.')
