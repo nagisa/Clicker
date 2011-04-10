@@ -1,0 +1,11 @@
+SIMPLE GAME
+---
+GOAL:
+You have to click your mouse as much as you can in one minute.
+---
+Requirements
+*Python 2.x
+*pygame
+---
+WARNING:
+HAS FLASHING COMPONENTS. PEOPLE WHO ARE SENSITIVE TO THAT KIND OF THINGS - DON'T PLAY!
